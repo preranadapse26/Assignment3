@@ -12,7 +12,7 @@ public class Array27 {
         int size2=Integer.parseInt(br.readLine());
         int arr2[]=new int[size2];
         for(int i=0;i<arr1.length;i++){
-            arr1[i]=Integer.parseInt(br.readLine());
+            arr2[i]=Integer.parseInt(br.readLine());
         }
         System.out.println("Common elements between array");
     for(int i=0;i<arr1.length;i++){
@@ -24,7 +24,7 @@ public class Array27 {
            }
     
         }
-        System.out.println();
+        
     }
 
 
